@@ -1,0 +1,2 @@
+*.py text eol=lf
+fixtures/cases.json -text
