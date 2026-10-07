@@ -1,2 +1,19 @@
 *.py text eol=lf
 fixtures/cases.json -text
+
+# Preserve reviewed snapshot bytes across checkout platforms.
+/.github/workflows/checks.yml -text
+/.github/workflows/codeql.yml -text
+/.gitignore -text
+/DECISIONS.md -text
+/LEARNING.md -text
+/LICENSE -text
+/PLAN.md -text
+/README.md -text
+/RESEARCH.md -text
+/REVIEW.md -text
+/SECURITY.md -text
+/STATE.md -text
+/VERIFICATION.md -text
+/docs/KNOWLEDGE-HANDOFF.md -text
+/requirements-dev.txt -text
